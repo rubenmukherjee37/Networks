@@ -2,9 +2,9 @@
 // Coursework 2024/2025
 //
 // Submission by
-//  YOUR_NAME_GOES_HERE
-//  YOUR_STUDENT_ID_NUMBER_GOES_HERE
-//  YOUR_EMAIL_GOES_HERE
+//  Ruben Mukherjee
+//  240000720
+//  ruben.mukherjee@city.ac.uk
 
 
 // DO NOT EDIT starts
@@ -35,7 +35,7 @@ interface NodeInterface {
     // If delay is zero then wait for an unlimited amount of time.
     public void handleIncomingMessages(int delay) throws Exception;
     
-    // Determines if a node can be contacted and is responding correctly.
+    // Determines if a node can be contacted and is responding correctly
     // Handles any messages that have arrived.
     public boolean isActive(String nodeName) throws Exception;
 
